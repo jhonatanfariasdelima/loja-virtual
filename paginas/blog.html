@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" href="../css/mais_produtos.css">
+		<link rel="stylesheet" type="text/css" href="../css/compras.css">
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/compras.js"></script>
+		<script src="../js/mais_produtos.js"></script>
+
+
+	</head>
+
+	<body>
+		<div id="div_cabecalho_menu"> 
+			<table border="0" cellpadding="3" cellspacing="3">
+				<tr id="tr_cabecalho">
+					<td align="lefth" rowspan="3"><img src="../imagens/logo1.jpg" "></td>
+					<td id="slogam" colspan="10" rowspan="1" align="lefth" ><h1><u>Os equipamentos certos para sua quarentena estão aqui!</u></h1></td>
+				</tr>
+				<tr id="menu">
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus10" >Empresa</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus20" >Blog</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus30" >Comprar</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus40" >Contato</butto>
+					</td> 
+					<td width="30%"></td>
+					<td>
+						<button id="bt_carrinho"><img src="../imagens/carrinho1.jpg"></button>
+					</td>
+					<td width="1%"></td>
+					<td>
+						<input type="text" id="bar_pesquisar" placeholder="Pesquisar">
+					</td>
+					<td> 
+						<button id="bt_pesquisar">
+							<img src="../imagens/pesquisar.jpg">
+						</button>
+					</td>
+				</tr>
+			</table>
+        </div>
+        <div class="div_compras_mensagem">
+            <h2>Página de blog</h2>
+		</div>
+		<div class="div_outra_pagina">
+            <tr>
+                <td class="td_outra_pagina">
+                    Home
+                </td>
+                <td>
+                    <button class="btn_outra_pagina" onclick="location.href='../index.html'"><img src="../imagens/home1.jpg"/></button>
+                </td>                  
+            </tr>
+        </div>
+        <div class="div_imagem_fundo">
+          <div class="div_banner">
+              <img src="../imagens/banner2.jpg" ">
+          </div>
+          <div>
+            <br><br><br><br>
+              <h1><i>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </i></h1>
+              <br><br><br><br>
+          </div>
+          <div id="depoimentos" >
+              <p id="titulo_comentarios">escreva-nos um comentário</p>  
+              <textarea rows="8" cols="78" placeholder="Deixe aqui um breve comentario..." id="comentarios" maxlength="90"></textarea><br> 
+              <input id="nome_usuario" type="text" name="usuario" placeholder="Usuario" maxlength="20"><br>  
+              <button id="enviar_coment">enviar</button> 
+              <p id="titulo_comentarios">comentarios mais recentes:</p>  
+              <table id="tabela_de_comentarios">          
+              </table>  
+          </div>
+          <iframe src="../paginas/rodape_redes_sociais.html"  width="100%" height="150px"></iframe>
+  </div>		
+	</body>
+</html>

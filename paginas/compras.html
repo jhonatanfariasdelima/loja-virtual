@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/estilo.css">
+		<link rel="stylesheet" href="../css/mais_produtos.css">
+		<link rel="stylesheet" type="text/css" href="../css/compras.css">
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/compras.js"></script>
+		<script src="../js/mais_produtos.js"></script>
+
+
+	</head>
+
+	<body>
+		<div id="div_cabecalho_menu"> 
+			<table border="0" cellpadding="3" cellspacing="3">
+				<tr id="tr_cabecalho">
+					<td align="lefth" rowspan="3"><img src="../imagens/logo1.jpg" "></td>
+					<td id="slogam" colspan="10" rowspan="1" align="lefth" ><h1><u>Os equipamentos certos para sua quarentena estão aqui!</u></h1></td>
+				</tr>
+				<tr id="menu">
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus10" >Empresa</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus20" >Blog</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus30" >Comprar</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus40" >Contato</butto>
+					</td> 
+					<td width="30%"></td>
+					<td>
+						<button id="bt_carrinho"><img src="../imagens/carrinho1.jpg"></button>
+					</td>
+					<td width="1%"></td>
+					<td>
+						<input type="text" id="bar_pesquisar" placeholder="Pesquisar">
+					</td>
+					<td> 
+						<button id="bt_pesquisar">
+							<img src="../imagens/pesquisar.jpg">
+						</button>
+					</td>
+				</tr>
+			</table>
+        </div>
+        <div class="div_compras_mensagem">
+            <h2>Página de compras</h2>
+		</div>
+		<div class="div_outra_pagina">
+            <tr>
+                <td class="td_outra_pagina">
+                     Produtos                      
+                 </td>
+                <td>
+                    <button class="btn_outra_pagina" onclick="location.href='./mais_produtos.html'"><img src="../imagens/carrinho2.jpg"/></button>
+				</td>
+                <td class="td_outra_pagina">
+                    Home
+                </td>
+                <td>
+                    <button class="btn_outra_pagina" onclick="location.href='../index.html'"><img src="../imagens/home1.jpg"/></button>
+                </td>                  
+            </tr>
+        </div>
+		<div class="div_imagem_fundo">
+			<div class="div_cadastro_cartao">
+				<table> 
+					<tr>
+						<td class="campo_titulo">
+							<b>Cadastro do cartão de crédito</b><br>
+						</td> 
+					</tr>    
+					<tr>
+					  <td>
+						<input type="text" class="campo_preenchimento"  placeholder='Número do cartão'/>
+					  </td>
+					</tr>
+					<tr>
+						<td class="campo_titulo">
+							<b>Forma de pagamento</b><br>
+						</td> 
+					</tr> 
+					<tr>
+						<td><img src="../imagens/bandeiras.jpg" "></td>
+					</tr>
+					<tr>
+						<td class="td_campo_forma_pagamento">
+							<input id="bande1"  type="radio"/>Ame Ex<input id="bande2"  type="radio"/>Master <input id="bande3"  type="radio"/>Visa <input id="bande4"  type="radio"/>Elo<br><br>
+						</td>
+					</tr>
+					<tr>
+						<td class="td_campo_forma_pagamento">
+							<input id="opcao1" type="radio"/>À vista<input id="opcao2"  type="radio"/>Débito <br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button id="btn_salvar1" class="campo_salvar"> Salvar </button>
+						</td>
+					</tr>
+				  </table>
+			</div>
+			<div id="div_parc" class="div_opcoes_parcelamento">
+				<tr>
+					<td class="campo_titulo">
+						<b>Opções parcelamento</b><br>
+					</td> 
+				<br><br>
+				</tr> 
+				<tr>
+					<td class="td_campo_forma_pagamento">
+						<input id="parcela2" type="radio"/>2 vezes<br>
+						<input id="parcela3" type="radio"/>3 vezes<br>
+						<input id="parcela4" type="radio"/>4 vezes<br>
+						<input id="parcela5" type="radio"/>5 vezes<br>
+						<input id="parcela6" type="radio"/>6 vezes<br>
+						<input id="parcela7" type="radio"/>7 vezes<br>
+						<input id="parcela8" type="radio"/>8 vezes<br>
+						<input id="parcela9" type="radio"/>9 vezes<br>
+						<input id="parcela10" type="radio"/>10 vezes<br>
+						<input id="parcela11" type="radio"/>11 vezes<br>
+						<input id="parcela12" type="radio"/>12 vezes<br>
+					</td>
+				</tr>
+			</div>
+		</div>
+		<iframe src="../paginas/rodape_redes_sociais.html"  width="100%" height="150px"></iframe>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.div_carrinho_mensagem {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.div_carrinho_produtos {
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/imagem_fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.campo_lista {
+ margin-top: 3px;
+    width: 100%;
+    height: 10%;
+    padding-top: 10px;
+    border: solid 1px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.campo_lista tr td {
+	padding: 10px;
+}
+
+.campo_lista tr:nth-child(2n) {
+	background-color: lightsalmon;
+}
+
+.campo_lista tr:nth-child(2n+1) {
+    background-color: lightblue;
+}

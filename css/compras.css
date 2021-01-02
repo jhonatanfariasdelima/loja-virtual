@@ -1,0 +1,95 @@
+body{
+	margin: 0px;
+}
+
+.div_compras_mensagem {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+
+.div_imagem_fundo {
+    border: 0px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/imagem_fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: block;
+}
+
+.div_cadastro_cartao {
+    float: left;
+    margin: 20px;
+    background-color: lightskyblue;
+    width: 300px;
+    height: 295px;
+    border: solid 1px #CCC;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.div_opcoes_parcelamento {
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightskyblue;
+    width: 200px;
+    height: 275px;
+    border: solid 1px #CCC;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.campo_titulo {
+    background-color: salmon;
+    height: 30px;
+    padding: 10px;
+}
+
+.campo_preenchimento {
+    margin-top: 3px;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    border: solid 1px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.campo_preenchimento:hover {
+    background-color: azure;
+    cursor: pointer;
+}
+
+.campo_salvar {
+    background-color: #00BFFF;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+.campo_salvar:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.td_campo_forma_parcelamento {
+    background-color: #00BFFF;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Arial";
+    font-size: 15px;
+}

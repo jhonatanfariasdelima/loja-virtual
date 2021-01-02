@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <link rel="stylesheet" href="css/estilo.css">
+	    <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/index.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN57mkO88IXlQikM9Gp6zA2txiHgxMtJY&callback=initMap" async defer ></script>
+
+		<title>Viking Info - Sua Loja Virtual</title>
+	</head>
+	
+	<body>
+
+		<div id="div_cabecalho_menu"> 
+			<table border="0" cellpadding="3" cellspacing="3">
+
+				<tr id="tr_cabecalho">
+
+					<td align="lefth" rowspan="3" ><img src="imagens/logo1.jpg"></td>
+
+					<td id="slogam" colspan="10" rowspan="1" align="lefth">
+						<h1><u>Os equipamentos certos para sua quarentena estão aqui!</u></h1>
+					</td>
+
+				</tr>
+				<tr id="menu">
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus1" >Empresa</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus2" >Blog</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus3" >Comprar</button>
+					</td>
+					<td align="center" >
+						<button class="bt_menus" id="bt_menus4" >Contato</butto>
+					</td> 
+					<td width="30%"></td>
+					<td>
+						<div id="btn_usuario"></div>
+					</td>
+					<td>
+						<button id="bt_carrinho"><img src="imagens/carrinho1.jpg" height="100%" width="100%"></button>
+					</td>
+					<td width="1%"></td>
+					<td>
+						<input type="text" id="bar_pesquisar" placeholder="Pesquisar">
+					</td>
+					<td> 
+						<button id="bt_pesquisar">
+							<img src="imagens/pesquisar.jpg" height="100%" width="100%">
+						</button>
+					</td>
+				</tr>
+			</table>
+        </div>
+
+		<div id="msg_usuario">
+			<table id="conteudo_msg" border="0px">
+				<tr>
+					<td height="400px" align="center">
+						<h2 id="msg">
+							A destruição dos preços <br>
+							 da concorrência
+						</h2> <br>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<button id="bt_cadastro" onclick="window.location.href='paginas/cadastro.html'">cadastrar-me</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="produtos">
+			<table id="conteudo_produtos" border="0" width="90%" >
+
+				<tr>
+					<td align="center" colspan="3" height="90px">
+						<h2 id="titulo_destaques">Destaques da semana</h2>
+					</td>
+				</tr>
+
+				<tr >
+					<td align="center" id="itens">
+						<img src="imagens/produto01.jpg" height="150px">
+						<h2>R$ 5.000,00</h2>
+					</td>
+					<td align="center" id="itens">
+						<img src="imagens/produto02.jpg" height="150px">
+						<h2>R$ 120,00</h2>
+					</td>
+					<td align="center" id="itens">	
+						<img src="imagens/produto03.jpg" height="150px">
+						<h2>R$ 6.000,00</h2>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3" align="center" height="80px">
+						<button id="bt_ver_mais">ver mais</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="video_demo">
+			<iframe id="video" width="60%" height="90%" src="https://www.youtube.com/embed/dicOL0p2U4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<div id="depoimentos" >
+			<p id="titulo_comentarios">escreva-nos um comentário</p>
+
+			<textarea rows="8" cols="78" placeholder="Deixe aqui um breve comentario..." id="comentarios" maxlength="90"></textarea><br>
+
+			<input id="nome_usuario" type="text" name="usuario" placeholder="Usuario" maxlength="20"><br>
+
+			<button id="enviar_coment">enviar</button>
+
+			<p id="titulo_comentarios">comentarios mais recentes:</p>
+
+			<table id="tabela_de_comentarios">
+				
+			</table>
+
+		</div>
+
+		<div id="end_cont">
+			
+			<h2 align="center">Conheça Nossas Lojas:</h2>
+
+			<div id="mapa"></div>
+		</div>
+
+		<iframe src="paginas/rodape_redes_sociais.html"  width="100%" height="150px"></iframe>
+
+	</body>
+</html>

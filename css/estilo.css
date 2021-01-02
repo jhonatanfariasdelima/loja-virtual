@@ -1,0 +1,254 @@
+body{
+	margin: 0px 4px;
+}
+
+h2{
+	margin: 0px;
+}
+table{
+	margin: 0px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.div_banner {
+width: 100%;
+}
+
+.div_ecologia {
+	width: 100%;
+}
+
+#div_cabecalho_menu{
+	width: 100%;
+	height: 175px;
+	background-color: #0000FF;
+}
+
+#slogam{
+	color: #7FFF00;
+	font-size: 17px;
+	-webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000;
+}
+
+.bt_menus{
+
+	width: 100%;
+	height: 40px;
+	background-color: #00BFFF;
+	border-radius: 3px;
+	border-width: 1px;
+	outline: 0;
+	font-weight: 600;
+
+}
+
+#bt_login{
+	width: 100%;
+	height: 40px;
+	background-color: #00BFFF;
+	border-radius: 3px;
+	border-width: 1px;
+	outline: 0;
+	font-weight: 600;
+}
+
+#bt_carrinho{
+	width: 45px;
+	height: 40px;
+	border-radius: 3px;
+	border-width: 1px;
+	outline: 0;
+
+}
+
+#bt_pesquisar{
+	width: 40px;
+	height: 40px;
+	border-radius: 3px;
+	border-width: 0px;
+	outline: 0;
+}
+
+#bar_pesquisar{
+
+	height: 40px;
+	border-radius: 3px;
+	border-width: 0px;
+	outline-color: #7FFF00;
+}
+
+#msg_usuario{
+	background: url(../imagens/imagem_fundo.jpg);
+	background-size: 100%;
+    background-attachment: fixed;
+	height: 500px;
+	float: top;
+}
+
+#conteudo_msg{
+	margin: auto;
+}
+
+#msg{
+	color: #7FFF00;
+	font-size: 55px;
+	font-family: Helvetica;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 5px 4px 2px grey;
+    letter-spacing: 5px;
+}
+
+#bt_cadastro{
+	float: both;
+	background-color: #00BFFF;
+	width: 50%;
+	height: 35px;
+	border-radius: 7px;
+	border-width: 1px;
+	outline: 0;
+	font-style: normal;
+	font-size: 20px;
+}
+
+#produtos{
+	background-color: #7FFF00;
+	height: 400px;
+}
+
+#conteudo_produtos{
+	margin: auto;
+	
+}
+
+#titulo_destaques{
+	color: #0000FF;
+	font-size: 55px;
+	text-decoration: underline;
+	text-decoration-color: #0000FF;
+	-webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;	
+    text-shadow: 5px 4px 7px black;
+    letter-spacing: 5px;
+}
+
+#itens{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#bt_ver_mais{
+	height: 30px;
+	width: 50%;
+	margin-top: 30px;
+	border-radius: 7px;
+	border-width: 1px;
+	outline: 0;
+	font-style: normal;
+	font-size: 20px;
+	background-color: #00BFFF;
+}
+
+#video_demo{
+	background-color: #7FFF00;
+	padding-top: 20px;
+	height: 400px;
+}
+#video{
+	margin-left: 20%;
+	margin-right: 20%;
+	border-color: #0000FF;
+	padding: 2px 2px 2px 2px;
+}
+
+#depoimentos{
+	background-color: #7FFF00;
+	height: 900px;
+}
+
+#titulo_comentarios {
+	color: #0000FF; 
+	font-size: 30px;
+	text-decoration-color: #0000FF;
+	-webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;	
+    text-shadow: 3px 4px 10px black;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: #0000FF;
+    margin: 0px 0px 0px 33%;
+}
+
+textarea{
+	resize: none;
+	margin: 30px 0px 0px 23%;
+	font-size:16px;
+}
+
+#nome_usuario{
+	height: 30px;
+	width: 20%;
+	margin: 10px 0px 0px 23%;
+}
+
+#enviar_coment{
+	height: 30px;
+	width: 10%;
+	margin: 10px 0px 25px 67%;
+	border-radius: 7px;
+	border-width: 1px;
+	outline: 0;
+	font-style: normal;
+	font-size: 20px;
+	background-color: #00BFFF;
+}
+
+#tabela_de_comentarios{
+	margin: 30px 20% 0px 20%;
+	background:#00BFFF;
+	border-spacing: 0px;
+	
+}
+
+#tabela_de_comentarios td{
+	padding: 10px 10px;
+}
+
+#divisao_coment{
+	background-color: #7FFF00;
+
+}
+
+#comentario_msg{
+	width: 60%;
+	height: 100px;
+	background-color: white;
+	border-spacing: 2px;
+}
+
+
+#end_cont{
+	background-color: #7FFF00;
+	height: 500px;
+}
+#end_cont h2{
+	color: #0000FF;
+	font-size: 40px;
+	text-decoration-color: #0000FF;
+	-webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;	
+    text-shadow: 5px 4px 10px black;
+    letter-spacing: 5px;
+}
+
+#mapa{
+	margin: 20px 0px 0px 10%;
+	width: 80%;
+	height: 400px;
+}
+
+

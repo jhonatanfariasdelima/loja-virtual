@@ -1,0 +1,59 @@
+button:hover{
+    cursor: pointer;
+}
+
+.campo-formulario{
+    border: solid 1px #cccccc;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px; 
+}
+
+.botao-formulario{
+    background-color: #088a68;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+}
+
+.botao-formulario:hover{
+    background-color: #04b486;
+    cursor: pointer;
+}
+
+.campo-formulario-erro{
+    border: solid 1px #fa5858;
+}
+
+.bt_menus{
+
+	width: 100px;
+	height: 25px;
+	background-color: #00BFFF;
+	border-radius: 3px;
+	border-width: 1px;
+	outline: 0;
+	font-weight: 600;
+    margin-top: 5px;
+}
+
+.input{
+    height: 25px;
+    margin-top: 5px;
+
+}
+
+#msg_usuario{
+	background: url(../imagens/imagem_fundo.jpg);
+	height: 500px;
+	float: top;
+}
+
+#conteudo_msg{
+	margin: auto;
+}

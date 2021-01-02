@@ -1,0 +1,40 @@
+body{
+	margin: 0px 0px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+#redes_sociais{
+	background-color: #0000FF;
+	height: 100%;
+	width: 100%;
+}
+
+#tabela_roda_pe{
+	margin:auto;
+}
+
+#titulo_roda_pe{
+	color: #7FFF00;
+	font-size: 30px;
+	font-family: Helvetica;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+
+    text-shadow: 5px 4px 5px black;
+    letter-spacing: 2px;
+}
+
+#bt_redes_sociais{
+	height: 40px;
+	width: 90%;
+	border-radius: 9px;
+	outline: 0;
+}
+
+#ft_redes_sociais{
+	height: 80%;
+	width: 80%;
+}
